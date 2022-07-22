@@ -54,4 +54,4 @@ python organize_data.py --result_path ./jrender/logs --target_result_path PATH_T
 
 ## 致谢
 
-此项目基于论文 *Nerf: Representing scenes as neural radiance fields for view synthesis* 实现，部分代码参考了 [jrender](https://github.com/Jittor/jrender.git)。
+此项目基于论文 *Nerf: Representing scenes as neural radiance fields for view synthesis* 实现，代码基于 [jrender](https://github.com/Jittor/jrender.git)。
