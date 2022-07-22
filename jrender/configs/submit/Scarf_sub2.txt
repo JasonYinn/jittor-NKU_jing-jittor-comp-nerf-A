@@ -1,0 +1,31 @@
+expname = blender_scarf_sub2
+basedir = ./logs
+datadir = /root/data/yzx/nerf-dataset/Jrender_Dataset/Scarf_subset2
+dataset_type = blender
+
+no_batching = True
+
+use_viewdirs = True
+white_bkgd = True
+lrate_decay = 500
+
+model = DepthNeRF
+embed_depth = True
+N_samples = 64
+N_importance = 256
+N_rand = 1024
+ray_marcher = v1
+
+precrop_iters = 500
+precrop_frac = 0.8
+near = 0.2
+far = 1.8
+valid_ratio = 0.8
+blender_factor = 1
+
+
+testskip=1
+half_res = False
+i_video = 1000000
+n_iters = 700000
+i_testset = 50000

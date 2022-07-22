@@ -1,0 +1,26 @@
+expname = blender_car_sub1
+basedir = ./logs
+datadir = /home/yzx/code/jittor-nerf/Jrender_Dataset/Car_subset1
+dataset_type = blender
+
+no_batching = True
+
+use_viewdirs = True
+white_bkgd = True
+lrate_decay = 500
+far_factor = 1.1
+ray_marcher = v2
+
+N_samples = 64
+N_importance = 128
+N_rand = 1024
+
+precrop_iters = 500 
+precrop_frac = 0.8 
+near = 0.2
+far = 1.8 
+valid_ratio = 0.8
+
+testskip=1
+half_res = False
+n_iters = 400000

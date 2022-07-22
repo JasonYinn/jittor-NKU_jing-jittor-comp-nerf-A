@@ -1,0 +1,1 @@
+python demo7-nerf.py --config configs/submit/Scarf_DepthNeRF.txt
